@@ -60,9 +60,51 @@ name = "jani";
 # print(start_with_s)
 
 
-a = 3 > 5
-b = 5 >= 5
+# a = 3 > 5
+# b = 5 >= 5
 
 
 # print(a and b)
 # print(not True)
+
+
+# print( 3 + 3)
+# print( 3 - 3)
+# print( 3 * 3)
+# print( 3 ** 3)
+# print( 3 / 3)
+# print( 3 // 3)
+# print( 3 % 3)
+
+
+
+# print((2  + 5)  * 5)
+
+# if 2 > 2 :
+#     print("three two sai baraa haii..")
+# elif 2 < 3 :
+#     print("else if true hai..")
+# else :
+#     print("else chl giya..")     
+
+
+
+# calculator
+
+
+a = int(input("enter a value"));
+b = int(input("enter b value"));
+operator = input("enter a operator  + - / * e.g;")
+
+
+
+# if operator == "+":
+#     print(a + b);
+# elif operator == "-" :   
+#     print(a - b)
+# elif operator == "*"  :  
+#     print(a * b)
+# elif operator == "/":    
+#     print(a / b)
+# else : 
+#     print("invalid operation")
