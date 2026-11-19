@@ -138,3 +138,66 @@ name = "jani";
 #     print("try again")
 # else:
 #     print("you win")
+
+
+# range
+
+# nums = range(1,101, 2)
+
+# print(nums)
+
+
+
+# i = 1
+# while i <= 5:
+#     print(i * "hello")
+#     i += 1
+    
+
+# print("end of code!")
+
+
+
+
+# for loop
+
+# nums = range(0, 5001);
+
+
+# for i in nums:
+#     print("hello world", i)
+
+
+
+# for i in range(0, 21):
+#     if i % 2 == 0:
+#         print("even num", i)
+#     elif i % 3 == 0:
+#         print("odd num", i)
+
+
+# for i in range(2, 11, 2):
+#     print(i)
+
+
+# break & continue in python
+
+
+# for i in range(1, 11):
+#     if i == 5:
+#         print("5 milgaya or loop break kerdia..")
+#         break
+#     if i % 2 == 0:
+#         print("even number found", i)
+
+
+
+# for i in range(1, 11):
+#     if i == 6:
+#         print("6 milgaya or skip bi kerdia..")
+#         continue
+#     if i % 2 == 0:
+#         print("even number found", i)
+
+
+
