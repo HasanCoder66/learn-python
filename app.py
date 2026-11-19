@@ -92,9 +92,9 @@ name = "jani";
 # calculator
 
 
-a = int(input("enter a value"));
-b = int(input("enter b value"));
-operator = input("enter a operator  + - / * e.g;")
+# a = int(input("enter a value"));
+# b = int(input("enter b value"));
+# operator = input("enter a operator  + - / * e.g;")
 
 
 
@@ -108,3 +108,33 @@ operator = input("enter a operator  + - / * e.g;")
 #     print(a / b)
 # else : 
 #     print("invalid operation")
+
+
+
+# logical operators in python
+
+# name = "hasan"
+# admin = False
+# age = 22
+
+
+
+# if name == "hasan" and admin == True and age >= 23:
+#     print("you are valid user for this platform!")
+# else:
+#     print("invalid user!")
+
+
+# if name == "hasan" or admin == True or age >= 23:
+#     print("you are valid user for this platform!")
+# else:
+#     print("invalid user!")
+
+
+# lottery = 4443;
+
+
+# if lottery != 4444:
+#     print("try again")
+# else:
+#     print("you win")
