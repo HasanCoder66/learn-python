@@ -201,3 +201,52 @@ name = "jani";
 
 
 
+
+
+# print the table of 57
+
+# tableOf57 = 57
+
+# for i in range(1,11):
+#     print(tableOf57 , "x" , i , "=" , i * tableOf57)
+
+
+
+# print all multiples 3 from 1 to 50 and skip 15
+
+# for i in range(1, 51):
+
+#     if i == 15 :
+#         continue
+#     if i % 3 == 0:
+#         print("multiply by 3 -->",i)
+
+
+# a = int(input("enter first number"));
+# b = int(input("enter second number"));
+
+# found  = False
+# for i in range (1, 1001):
+#     if i % a == 0 and i % b == 0:
+#        print(f"The first number divisible by both is: {i}")
+
+
+
+# if not found:
+#     print("No number between 1 and 1000 is divisible by both.")
+
+
+
+a = int(input("Enter first integer: "))
+b = int(input("Enter second integer: "))
+
+found = False
+
+for i in range(1, 1001):
+    if i % a == 0 and i % b == 0:
+        print(f"The first number divisible by both is: {i}")
+        found = True
+        break
+
+if not found:
+    print("No number between 1 and 1000 is divisible by both.")
